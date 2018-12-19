@@ -13,7 +13,7 @@
 !/log/.keep
 !/tmp/.keep
 
-/client/node_modules/*
+/client/node_modules
 
 # Ignore uploaded files in development
 /storage/*
