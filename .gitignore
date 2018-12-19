@@ -13,8 +13,6 @@
 !/log/.keep
 !/tmp/.keep
 
-/client/node_modules
-
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
@@ -23,3 +21,4 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+node_modules
