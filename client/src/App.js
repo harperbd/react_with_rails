@@ -29,7 +29,7 @@ class App extends Component {
         <TodoForm addItem={this.addItem} />
         <br />
         <br />
-        <TodoList />
+        <TodoList update={this.updateTodo} delete={this.deleteTodo()} todos={this.state.todos} />
       </Container>
     );
   }
